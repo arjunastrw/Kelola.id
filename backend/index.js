@@ -27,5 +27,5 @@ app.use(
 app.use(express.json());
 
 app.listen(process.env.APP_PORT, () => {
-  console.log("Server Running...");
+  console.log("Server Up and Running...");
 });
