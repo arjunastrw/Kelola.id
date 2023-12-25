@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" modified="2023-12-25T10:51:59.089Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="xWOENs-Jimzh2aSc3UQw" version="22.1.11" type="github">
+  <diagram name="Page-1" id="40xObGimD8YpIX6pD9BG">
+    <mxGraphModel dx="481" dy="250" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kmPnVxHn9LJS97Qf2xmE-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kmPnVxHn9LJS97Qf2xmE-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="416.5" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kmPnVxHn9LJS97Qf2xmE-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 51px;&quot;&gt;KELOLA.id&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000033;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="273" y="40" width="287" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="kmPnVxHn9LJS97Qf2xmE-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kmPnVxHn9LJS97Qf2xmE-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kmPnVxHn9LJS97Qf2xmE-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kmPnVxHn9LJS97Qf2xmE-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kmPnVxHn9LJS97Qf2xmE-3" value="&lt;font color=&quot;#ffffff&quot;&gt;LOGIN&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000033;strokeColor=#000099;" vertex="1" parent="1">
+          <mxGeometry x="356.5" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kmPnVxHn9LJS97Qf2xmE-6" value="&lt;font color=&quot;#ffffff&quot;&gt;as admin&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000033;" vertex="1" parent="1">
+          <mxGeometry x="290" y="310" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kmPnVxHn9LJS97Qf2xmE-8" value="&lt;font color=&quot;#ffffff&quot;&gt;as user&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000033;" vertex="1" parent="1">
+          <mxGeometry x="490" y="310" width="60" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
