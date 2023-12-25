@@ -2,4 +2,4 @@
 
 Ini adalah deskripsi proyek.
 
-![Flowchart](kelola_id.drawio.svg)
+![Flowchart](kelola_id.svg)
