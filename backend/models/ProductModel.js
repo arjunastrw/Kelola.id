@@ -2,13 +2,13 @@ import { Sequelize } from "sequelize";
 import db from "../config/Database.js";
 import User from "./UsersModel.js";
 
-const { DataType } = Sequelize;
+const { DataTypes } = Sequelize;
 
 const Product = db.define(
   "product",
   {
     name: {
-      type: DataType.STRING,
+      type: DataTypes.STRING,
       allowNull: false,
       validate: {
         notEmpty: true,
@@ -16,7 +16,7 @@ const Product = db.define(
       },
     },
     type: {
-      type: DataType.STRING,
+      type: DataTypes.STRING,
       allowNull: false,
       validate: {
         notEmpty: true,
@@ -24,7 +24,7 @@ const Product = db.define(
       },
     },
     brand: {
-      type: DataType.STRING,
+      type: DataTypes.STRING,
       allowNull: false,
       validate: {
         notEmpty: true,
@@ -32,21 +32,21 @@ const Product = db.define(
       },
     },
     price: {
-      type: DataType.INTEGER,
+      type: DataTypes.INTEGER,
       allowNull: false,
       validate: {
         notEmpty: true,
       },
     },
     stock: {
-      type: DataType.INTEGER,
+      type: DataTypes.INTEGER,
       allowNull: false,
       validate: {
         notEmpty: true,
       },
     },
     userId: {
-      type: DataType.INTEGER,
+      type: DataTypes.INTEGER,
       allowNull: false,
       validate: {
         notEmpty: true,

@@ -1,21 +1,21 @@
 import { Sequelize } from "sequelize";
 import db from "../config/Database.js";
 
-const { DataType } = Sequelize;
+const { DataTypes } = Sequelize;
 
 const User = db.define(
-  "users",
+  "user",
   {
     uuid: {
-      type: DataType.STRING,
-      defaultValue: DataType.UUIDV4,
+      type: DataTypes.STRING,
+      defaultValue: DataTypes.UUIDV4,
       allowNull: false,
       validate: {
         notEmpty: true,
       },
     },
     name: {
-      type: DataType.STRING,
+      type: DataTypes.STRING,
       allowNull: false,
       validate: {
         notEmpty: true,
@@ -23,7 +23,7 @@ const User = db.define(
       },
     },
     email: {
-      type: DataType.STRING,
+      type: DataTypes.STRING,
       allowNull: false,
       validate: {
         notEmpty: true,
@@ -31,21 +31,21 @@ const User = db.define(
       },
     },
     password: {
-      type: DataType.STRING,
+      type: DataTypes.STRING,
       allowNull: false,
       validate: {
         notEmpty: true,
       },
     },
     role: {
-      type: DataType.STRING,
+      type: DataTypes.STRING,
       allowNull: false,
       validate: {
         notEmpty: true,
       },
     },
     divisi: {
-      type: DataType.STRING,
+      type: DataTypes.STRING,
       allowNull: false,
       validate: {
         notEmpty: true,
