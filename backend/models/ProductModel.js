@@ -1,5 +1,6 @@
 import { Sequelize } from "sequelize";
 import db from "../config/Database.js";
+import User from "./UsersModel.js";
 
 const { DataType } = Sequelize;
 
@@ -44,10 +45,20 @@ const Product = db.define(
         notEmpty: true,
       },
     },
+    userId: {
+      type: DataType.INTEGER,
+      allowNull: false,
+      validate: {
+        notEmpty: true,
+      },
+    },
   },
   {
     freezeTableName: true,
   }
 );
+
+User.hasMany(Product);
+Product.belongsTo(User, { foreignKey: "userId" });
 
 export default Product;
